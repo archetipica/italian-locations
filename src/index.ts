@@ -23,7 +23,6 @@ import {
   searchProvince as searchProvinceUtil,
   searchRegioni as searchRegioniUtil,
   searchComuniWithFilters as searchComuniWithFiltersUtil,
-  getComuniByRegione as getComuniByRegioneUtil, // ⬅️ Rinominato
   getCapoluoghi as getCapoluoghiUtil, // ⬅️ Rinominato
   getProvinceByRegioneWithRegioni as getProvinceByRegioneUtil, // ⬅️ Nome corretto
   isValidCAP,
@@ -69,8 +68,8 @@ class ComuniItaliani {
       this.createIndices();
       this.initialized = true;
     } catch (error) {
-      console.error("Errore durante l'inizializzazione:", error);
-      throw new Error('Impossibile caricare i dati geografici italiani');
+        const errorMessage = error instanceof Error ? error.message : String(error)
+        throw new Error(`Impossibile caricare i dati geografici italiani: ${errorMessage}`)
     }
   }
 
