@@ -256,7 +256,7 @@ Last Update: June 30, 2025
 
 ## 🙏 Credits
 
-Special thanks to (https://www.gardainformatica.it/database-comuni-italiani)[Garda Informatica] for providing and maintaining this comprehensive, free, and always up-to-date database of Italian municipalities. Their automated procedures ensure the data stays current with official ISTAT sources.
+Special thanks to [Garda Informatica](https://www.gardainformatica.it/database-comuni-italiani) for providing and maintaining this comprehensive, free, and always up-to-date database of Italian municipalities. Their automated procedures ensure the data stays current with official ISTAT sources.
 
 Visit their website: https://www.gardainformatica.it/database-comuni-italiani
 
