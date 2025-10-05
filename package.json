@@ -16,16 +16,16 @@
     "autocomplete",
     "typescript"
   ],
-  "author": "Your Name <your.email@example.com>",
+  "author": "Archetipica <info@archetipica.it>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yourusername/comuni-italiani.git"
+    "url": "git+https://github.com/archetipica/italian-locationsi.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/comuni-italiani/issues"
+    "url": "https://github.com/archetipica/italian-locations/issues"
   },
-  "homepage": "https://github.com/yourusername/comuni-italiani#readme",
+  "homepage": "https://github.com/archetipica/italian-locations#readme",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
